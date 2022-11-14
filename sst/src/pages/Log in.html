@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SST Technologies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/log in.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-nav">
+        <div class="logo">
+          <img src="../images/sst-logo.jpg" alt="sst-logo" class="img-logo" />
+          <p class="title">
+            SST
+            <br />
+            Technologies
+          </p>
+        </div>
+
+        <div class="nav-menu">
+          <nav>
+            <ul>
+              <li><a href="./Главная.html">Главная</a></li>
+              <li><a href="./О-нас.html">О нас</a></li>
+              <li><a href="./Log in.html">Вход</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#" name="formUserData">
+          <h1>Create Account</h1>
+
+          <span>or use your email for registration</span>
+          <input name="name" type="text" placeholder="Name" />
+          <input id="emailFormat" name="email" type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#" name="formUserData">
+          <h1>Sign in</h1>
+
+          <span>or use your account</span>
+          <input id="emailFormat" name="email" type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>
+              To keep connected with us please login with your personal info
+            </p>
+            <button type="submit" class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button type="submit" class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script/log in.js"></script>
+  </body>
+</html>
